@@ -4,7 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+ferrolearn-core = "0.5.0"
+ferrolearn-preprocess = "0.5.0"
 kornia = "0.1.9"
+ndarray = "0.17.2"
 
 [dev-dependencies]
 serde = { version = "1", features = ["derive"] }
